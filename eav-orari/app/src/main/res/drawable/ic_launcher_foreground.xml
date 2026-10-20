@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:translateX="21.6"
+        android:translateY="21.6">
+
+        <!-- rail line -->
+        <path
+            android:fillColor="#F5A623"
+            android:pathData="M10,72 L76,72" />
+
+        <!-- train body -->
+        <path
+            android:fillColor="#F5A623"
+            android:pathData="M22,60 L22,42 L27,32 L62,32 L67,42 L67,60 Z" />
+
+        <!-- cabin -->
+        <path
+            android:fillColor="#F5A623"
+            android:pathData="M27,32 L32,22 L57,22 L62,32 Z" />
+
+        <!-- window 1 -->
+        <path
+            android:fillColor="#0A0B10"
+            android:pathData="M35,24 L44,24 L44,31 L35,31 Z" />
+
+        <!-- window 2 -->
+        <path
+            android:fillColor="#0A0B10"
+            android:pathData="M48,24 L57,24 L57,31 L48,31 Z" />
+
+        <!-- headlight -->
+        <path
+            android:fillColor="#00D4FF"
+            android:pathData="M22,44 L16,44 L16,50 L22,50 Z" />
+
+        <!-- wheel 1 -->
+        <path
+            android:fillColor="#1A1F2E"
+            android:strokeColor="#F5A623"
+            android:strokeWidth="1.5"
+            android:pathData="M32,64 A5,5 0 1,1 32,74 A5,5 0 1,1 32,64 Z" />
+
+        <!-- wheel 2 -->
+        <path
+            android:fillColor="#1A1F2E"
+            android:strokeColor="#F5A623"
+            android:strokeWidth="1.5"
+            android:pathData="M52,64 A5,5 0 1,1 52,74 A5,5 0 1,1 52,64 Z" />
+
+    </group>
+</vector>
